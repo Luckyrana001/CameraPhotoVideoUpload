@@ -3,12 +3,93 @@
 
     <item
         is-multidex="true"
-        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_bea0495d7505e6c91cd01b312fdf7e091bfa9414/classes.dex" />
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.3.1_6a27ffd6ac01c2528a34ea8a01d850c244fc34cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e03da1cc236374ffcfdbdc6a928543b554bbf0d">
+        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0fcbc955d5706a93005f9a2168a28e4e15034144/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.3.1_1bb53e7dd4dcada8509e7ceead7051ff6f40d6fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.3.1_d00abeda9e3e7ba0cb1a09451554dbb192b223db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.3.1_d824fa415cc7cfe0e2f1861eaa9548b84a02c455/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lucky/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_3461bcaeb221c4d8a11fe78ae76ff5ea497b5ed7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9271649769d11c694ea44b21f4e062e407d4a5ae">
+        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ca75554cd1a1c09cc2572e8decb763e197532726/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.3.1_df989346b9e67b0a11587dfbe9e4cb5c05efaa0f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.3.1_c1c4e83375f795bb97491661161f03f1147fb876/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.3.1_c86a5c91f7774c6754c2dca351a3ca8d86719d70/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -21,39 +102,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-21.0.3_95d8fd0f81adcfad89a44b122298364896f5b3f8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/lucky/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-21.0.3_d1e9d6816e592673bb29aa9ead791db931e79b50/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.3_a0c6e9ed63513298c1573b9442eb9b58d314bad4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8080635cde060be89d2a994c46a61a2ce5adb6fd">
-        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0fcbc955d5706a93005f9a2168a28e4e15034144/classes.dex" />
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.3.1_fb1e46d3aad4399fa52f4a75978d3b27d59ccb4f/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -66,15 +120,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eafacc2e061f1659705799602a5671fa2409afe5">
-        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ca75554cd1a1c09cc2572e8decb763e197532726/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/libs/httpmime-4.3.6.jar"
         jumboMode="true"
         optimize="true"
@@ -84,12 +129,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-21.0.3_26dbb50e4c8c83fecac7d405c125ea47f63bf5df/classes.dex" />
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.3.1_cc997697ec4d96c5c01f29117ea575a7b7e319cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_bea0495d7505e6c91cd01b312fdf7e091bfa9414/classes.dex" />
     </item>
 
 </items>

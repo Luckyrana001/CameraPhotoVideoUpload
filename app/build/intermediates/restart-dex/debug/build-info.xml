@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="22"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="79163899107829"
+    token="-4729510488415306179"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="583" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="391" />
+    <task
+        name="verifier"
+        duration="56" />
+
+    <artifact
+        location="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="79163899107829"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

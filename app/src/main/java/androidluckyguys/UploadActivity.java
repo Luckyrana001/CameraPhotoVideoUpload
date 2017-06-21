@@ -5,6 +5,7 @@ import androidluckyguys.AndroidMultiPartEntity.ProgressListener;
 import java.io.File;
 import java.io.IOException;
 
+import org.androidluckyguys.R;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
@@ -22,6 +23,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -31,7 +33,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
-public class UploadActivity extends Activity {
+public class UploadActivity extends AppCompatActivity {
 	// LogCat tag
 	private static final String TAG = MainActivity.class.getSimpleName();
 

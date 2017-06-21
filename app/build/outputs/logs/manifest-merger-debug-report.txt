@@ -2,7 +2,7 @@
 manifest
 ADDED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidManifest.xml:2:1-36:12
 	package
-		ADDED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidManifest.xml:3:5-31
+		ADDED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidManifest.xml:3:5-35
 		INJECTED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -18,8 +18,17 @@ ADDED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidMan
 uses-sdk
 ADDED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:multidex:1.0.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:support-v4:21.0.3] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:20:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		ADDED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidManifest.xml:9:9-38
 		INJECTED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidManifest.xml
@@ -42,8 +51,15 @@ ADDED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidMan
 		ADDED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidManifest.xml:13:22-68
 application
 ADDED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidManifest.xml:15:5-34:19
-MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:support-v4:21.0.3] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
 	android:label
 		ADDED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidManifest.xml:18:9-41
 	android:allowBackup
@@ -76,3 +92,17 @@ ADDED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidMan
 		ADDED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidManifest.xml:32:13-49
 	android:name
 		ADDED from /Users/lucky/Downloads/CameraPhotoVideoUpload/app/src/main/AndroidManifest.xml:31:13-59
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/lucky/Downloads/CameraPhotoVideoUpload/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:26:9-47

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="androidluckyguys.test" >
+    package="org.androidluckyguys.test" >
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -10,8 +10,8 @@
         android:name="com.android.test.runner.MultiDexTestRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for androidluckyguys"
-        android:targetPackage="androidluckyguys" />
+        android:label="Tests for org.androidluckyguys"
+        android:targetPackage="org.androidluckyguys" />
 
     <application>
         <uses-library android:name="android.test.runner" />
