@@ -12,6 +12,7 @@ import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.mime.content.FileBody;
+import org.apache.http.entity.mime.content.StringBody;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 
@@ -33,9 +34,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
+import static androidluckyguys.FileUploadNotification.updateNotification;
+
 public class UploadActivity extends AppCompatActivity {
 	// LogCat tag
 	private static final String TAG = MainActivity.class.getSimpleName();
+	long totalSize = 0;
 
 	private ProgressBar progressBar;
 	private String filePath = null;
@@ -43,7 +47,6 @@ public class UploadActivity extends AppCompatActivity {
 	private ImageView imgPreview;
 	private VideoView vidPreview;
 	private Button btnUpload;
-	long totalSize = 0;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -81,8 +84,11 @@ public class UploadActivity extends AppCompatActivity {
 
 			@Override
 			public void onClick(View v) {
-				// uploading the file to server
-				new UploadFileToServer().execute();
+				if(filePath!=null) {
+
+					// uploading the file to server
+					new UploadFileToServer(filePath).execute();
+				}
 			}
 		});
 
@@ -119,6 +125,15 @@ public class UploadActivity extends AppCompatActivity {
 	 * Uploading the file to server
 	 * */
 	private class UploadFileToServer extends AsyncTask<Void, Integer, String> {
+			String filePath = null;  String sessionId,contentData;
+
+
+
+		public  UploadFileToServer(String filePath)
+		{
+			this.filePath = filePath;
+
+		}
 		@Override
 		protected void onPreExecute() {
 			// setting progress bar to zero
@@ -136,6 +151,10 @@ public class UploadActivity extends AppCompatActivity {
 
 			// updating percentage value
 			txtPercentage.setText(String.valueOf(progress[0]) + "%");
+
+			//code to show progress in notification bar
+			FileUploadNotification	 fileUploadNotification = new FileUploadNotification(UploadActivity.this);
+			fileUploadNotification.updateNotification(String.valueOf(progress[0]),"File Name","Camera Upload");
 		}
 
 		@Override
@@ -168,6 +187,7 @@ public class UploadActivity extends AppCompatActivity {
 				// Extra parameters if you want to pass to server
 				//entity.addPart("website", new StringBody("https://androidluckyguys.wordpress.com"));
 				//entity.addPart("email", new StringBody("luckyrana321@gmail.com"));
+
 
 				totalSize = entity.getContentLength();
 				httppost.setEntity(entity);
