@@ -50,4 +50,5 @@ dependencies {
     compile files('libs/httpcore-4.3.3.jar')
     compile files('libs/httpmime-4.3.6.jar')
     compile 'com.android.support:support-annotations:25.3.1'
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
 }

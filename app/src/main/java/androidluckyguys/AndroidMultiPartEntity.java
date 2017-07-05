@@ -12,7 +12,6 @@ import org.apache.http.entity.mime.MultipartEntity;
 public class AndroidMultiPartEntity extends MultipartEntity
 
 {
-
 	private final ProgressListener listener;
 
 	public AndroidMultiPartEntity(final ProgressListener listener) {
